@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metdata: 
+     name: nginx
+     labels:
+         app: nginx
+         name: nginx
+spec:
+    templates:
+          metadata:
+               name: 
